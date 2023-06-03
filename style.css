@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #faf9ff;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 150px auto;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: -7rem;
+    left: 13rem;
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(to right, #7894ef, #4b92e4);
+}
+
+.time {
+    color: #bec0c1;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
+    max-width: 15%;
+    border-radius: 50%;
+}
+
+.feed-1 img {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+}
+
+.feed-1 .p-with-span {
+    position: absolute;
+    top: 3rem;
+    left: 9rem;
+    font-size: 21px;
+}
+
+.feed-1 .time {
+    position: absolute;
+    top: 5rem;
+    left: 9rem;
+}
+
+.feed-2 img {
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+}
+
+.feed-2 .p-with-span {
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+    font-size: 21px;
+    max-width: 25ch;
+}
+
+.feed-2 .time {
+    position: absolute;
+    top: 12.5rem;
+    left: 9rem;
+}
+
+.feed-3 img {
+    position: absolute;
+    top: 14rem;
+    left: 3rem;
+}
+
+.feed-3 .p-with-span {
+    position: absolute;
+    top: 15rem;
+    left: 9rem;
+    font-size: 21px;
+}
+
+.feed-3 .time {
+    position: absolute;
+    top: 17rem;
+    left: 9rem;
+}
+
+.feed-4 img {
+    position: absolute;
+    top: 20rem;
+    left: 3rem;
+}
+
+.feed-4 .p-with-span {
+    position: absolute;
+    top: 21rem;
+    left: 9rem;
+    font-size: 21px;
+}
+
+.feed-4 .time {
+    position: absolute;
+    top: 23rem;
+    left: 9rem;
+}
+
+a {
+    position: absolute;
+    bottom: 2rem;
+    left: 11rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(237, 243, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+}
